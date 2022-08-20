@@ -3,3 +3,58 @@
     padding: 0px;
     margin: 0px;
 }
+
+:root {}
+
+.code {
+    font-family: monospace
+}
+
+/*Header Classes*/
+
+.header {}
+
+.header-left {}
+
+.header-right {}
+
+/*Main Classes*/
+
+/*Opener section classes*/
+
+.opener {}
+
+.h1 {}
+
+.feature-photo {}
+
+/*ABOUT section classes*/
+
+.about {}
+
+.about-image {}
+
+.about-text {}
+
+.direction-image {}
+
+.direction-text {}
+
+/*PROJECT section classes*/
+
+.projects {}
+
+.h2 {}
+
+.feature-box {}
+
+.website-box {}
+
+/*CONTACT section classes*/
+
+.contact {}
+
+.h2 {}
+
+.icons {}
+
