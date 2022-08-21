@@ -16,7 +16,7 @@
     font-family: monospace
 }
 
-.body {
+.body { 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.5;
@@ -33,13 +33,26 @@
 .header-left {
     font-size: 30px;
     float: left;
+    margin: 10px;
+    background-color: transparent;
+}
+
+.header-left:hover {
+    text-shadow: 0px 0px 5px #800080;
 }
 
 .header-right {
     font-size: 20px;
     float: right;
     text-align: right;
+    margin: 20px;
 }
+
+.header-link {
+    padding: 35px;
+    text-decoration: none;
+}
+
 
 /*Main Classes*/
 
@@ -48,61 +61,180 @@
 .opener {
     padding: 20px;
     margin: 20px;
+    position: relative;
+    text-align: left center;
 }
 
-.h1 {
-    font-size: 100px;
-    z-index: 2;
+.open-text {
+    font-size: 175px;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    background-color: transparent;
+    font-style: italic;
+}
+
+.open-text:hover {
+    color: #800080;
+    text-shadow: inset 0px 0px 8px var(--theme-purple), 0 0 15px var(--theme-purple);
+    transition: all 1.5s ease-in-out;
+}
+
+.open-text-two {
+    font-size: 200px;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    background-color: transparent;
+    font-style: italic;
+}
+
+.open-text-two:hover {
+    color: #800080;
+    transition: all 1.5s ease-in-out;
 }
 
 .feature-photo {
     width: 100%;
-    height: 800px;
+    margin: 10px;
+    padding: 10px;
 }
 
 /*ABOUT section classes*/
 
-.about {}
+.about {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
 
-.about-image {}
+.about-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-height: 100%;
+    width: 100%;
+    padding: 10px;
+}
 
-.about-text {}
+.about-image {
+    width: 35%;
+    margin: 40px;
+    padding: 20px;
+    float: left
+}
 
-.direction-image {}
+.about-text {
+    flex-direction: row;
+    float: right;
+    padding-left: 60px;
+    padding-top: 80px;
+    font-size: 30px;
+}
 
-.direction-text {}
+.about-direction {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+
+.direction-image {
+    width: 35%;
+    margin: 40px;
+    padding: 20px;
+    float: left
+}
+
+.direction-text {
+    flex-direction: row;
+    float: right;
+    padding-left: 60px;
+    padding-top: 80px;
+    font-size: 30px;
+}
 
 /*PROJECT section classes*/
 
 .projects {
     justify-content: center;
     background-color: var(--theme-black);
+    position: absolute;
+    background-color: transparent;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
 }
 
-.h2 {}
+.project-script { 
+    font-size: 150px;
+    position: relative;
+    margin-top: 25px;
+    margin-left: 200px;
+    background-color: transparent;
+    font-style: italic;
+}
 
 .box {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
+    width: 50%;
+    margin: 20px;
+    padding: 10px;
+    position: relative;
 }
 
-.feature-box {}
-
-.website-box {
-    min-height: 100%;
-    padding: 2rem;
+.feature-box {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    flex: 2 1;
+    height: 100%;
+    padding: 10px;
     color: var(--theme-white);
     outline: 2px solid var(--theme-white);
-    outline-offset: -2px;
-    transition: all 0.5s ease-in-out;
+}
+
+.website-box {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    width: fit-content;
+    height: 100%;
+    padding: 10px;
+    color: var(--theme-white);
+    outline: 2px solid var(--theme-white);
+}
+
+.box-header {
+    position: absolute;
+    margin-left: 15%;
+    font-size: 30px;
+    background-color: transparent;
 }
 
 /*CONTACT section classes*/
 
-.contact {}
+.contact {
+   position: relative;
+   display: inline-flex;
+   float: bottom;
+   background-color: transparent;
+}
 
-.h2 {}
+.end-text {
+    
+}
 
-.icons {}
+.icons {
+    
+}
 
+.image-logo {
+   width: 10px;
+   height: 10px;
+   z-index: 1;
+}
