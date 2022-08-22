@@ -2,8 +2,6 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-    color: var(--theme-white);
-    background-color: #000000;
 }
 
 :root {
@@ -20,6 +18,8 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.5;
+    background-color: var(--theme-black);
+    color: var(--theme-white);
 }
 
 /*Header Classes*/
@@ -51,6 +51,7 @@
 .header-link {
     padding: 35px;
     text-decoration: none;
+    color: var(--theme-white)
 }
 
 
@@ -76,7 +77,7 @@
 
 .open-text:hover {
     color: #800080;
-    text-shadow: inset 0px 0px 8px var(--theme-purple), 0 0 15px var(--theme-purple);
+    text-shadow: inset 0px 0px 15px var(--theme-purple), 0 0 15px var(--theme-purple);
     transition: all 1.5s ease-in-out;
 }
 
@@ -91,6 +92,7 @@
 
 .open-text-two:hover {
     color: #800080;
+    text-shadow: inset 0px 0px 15px var(--theme-purple), 0 0 15px var(--theme-purple);
     transition: all 1.5s ease-in-out;
 }
 
@@ -165,16 +167,16 @@
     background-color: transparent;
     flex-wrap: wrap;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .project-script { 
     font-size: 150px;
     position: relative;
-    margin-top: 25px;
-    margin-left: 200px;
     background-color: transparent;
     font-style: italic;
+    width: 100%;
+    text-align: center;
 }
 
 .box {
@@ -187,41 +189,63 @@
     position: relative;
 }
 
+.box img {
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.box:hover {
+    text-shadow: 0px 0px 10px #800080; 
+    transition: all 1.5s ease-in-out;
+}
+
 .feature-box {
     display: flex;
     flex-direction: column;
-    width: fit-content;
-    flex: 2 1;
+    width: 100%;
+    flex-grow: 1;
     height: 100%;
     padding: 10px;
     color: var(--theme-white);
     outline: 2px solid var(--theme-white);
 }
 
+.feature-box:hover {
+    text-shadow: 0px 0px 10px #800080; 
+    transition: all 1.5s ease-in-out;
+}
+
 .website-box {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-grow: 1;
     width: fit-content;
     height: 100%;
     padding: 10px;
     color: var(--theme-white);
     outline: 2px solid var(--theme-white);
+    object-fit: cover;
+}
+
+.website-box:hover {
+    box-shadow: 0px 0px 10px #800080; 
+    transition: all 1.5s ease-in-out;
 }
 
 .box-header {
     position: absolute;
-    margin-left: 15%;
     font-size: 30px;
     background-color: transparent;
+    text-align: center;
 }
+
 
 /*CONTACT section classes*/
 
 .contact {
-   position: relative;
-   display: inline-flex;
-   float: bottom;
+   position: absolute;
+   display: block;
    background-color: transparent;
 }
 
@@ -230,11 +254,12 @@
 }
 
 .icons {
-    
+    height: 20px;
+    width: 20px;
 }
 
 .image-logo {
-   width: 10px;
-   height: 10px;
-   z-index: 1;
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
 }
