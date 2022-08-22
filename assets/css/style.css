@@ -163,7 +163,7 @@
 .projects {
     justify-content: center;
     background-color: var(--theme-black);
-    position: absolute;
+    position: relative;
     background-color: transparent;
     flex-wrap: wrap;
     display: flex;
@@ -177,6 +177,12 @@
     font-style: italic;
     width: 100%;
     text-align: center;
+}
+
+.project-script:hover {
+    color: #800080;
+    text-shadow: inset 0px 0px 15px var(--theme-purple), 0 0 15px var(--theme-purple);
+    transition: all 1.5s ease-in-out;
 }
 
 .box {
@@ -244,22 +250,50 @@
 /*CONTACT section classes*/
 
 .contact {
-   position: absolute;
-   display: block;
-   background-color: transparent;
+    background-color: transparent;
 }
 
 .end-text {
-    
+    font-size: 100px;
+    position: relative;
+    background-color: transparent;
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+}
+
+.end-text:hover {
+    color: #800080;
+    text-shadow: inset 0px 0px 15px var(--theme-purple), 0 0 15px var(--theme-purple);
+    transition: all 1.5s ease-in-out;
+}
+
+.end-text-two {
+    font-size: 100px;
+    position: relative;
+    background-color: transparent;
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+}
+
+.end-text-two:hover {
+    color: #800080;
+    text-shadow: inset 0px 0px 15px var(--theme-purple), 0 0 15px var(--theme-purple);
+    transition: all 1.5s ease-in-out;
 }
 
 .icons {
-    height: 20px;
-    width: 20px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .image-logo {
+   display: flex;
    height: 100%;
    width: 100%;
-   object-fit: cover;
+   margin: 10px;
+   padding: 5px;
 }
