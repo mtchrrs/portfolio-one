@@ -2,7 +2,7 @@
 
 First website portfolio
 
-##User Story
+## User Story
 
 AS A developer
 
@@ -10,7 +10,7 @@ I WANT creat a deployed portfolio that shows off my work samples
 
 SO THAT I can present my work to potential employers to show them my devolpment skills
 
-##Acceptance Criteria
+## Acceptance Criteria
 
 GIVEN I want to display my previous work for potential employers
 
@@ -38,4 +38,4 @@ WHEN 1 resize the page or view the site on various screens and devices
 
 THEN 1 am presented with a responsive layout that adapts to my viewport
 
-##Navigate the Website
+## Navigate the Website
