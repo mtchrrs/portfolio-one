@@ -34,9 +34,9 @@ WHEN I click on the images of the applications
 
 THEN I am taken to that deployed application
 
-WHEN 1 resize the page or view the site on various screens and devices
+WHEN I resize the page or view the site on various screens and devices
 
-THEN 1 am presented with a responsive layout that adapts to my viewport
+THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Navigate the Website
 When you initially open the webpage, you will see the following screenshot. The top left header 'mtchrrs.' is my creator tag, and the on the left side, the 'About', 'Projects' and 'Contact' links will take you to the corresponding sections of the application, as labelled and pictured below. 
