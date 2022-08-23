@@ -39,3 +39,28 @@ WHEN 1 resize the page or view the site on various screens and devices
 THEN 1 am presented with a responsive layout that adapts to my viewport
 
 ## Navigate the Website
+When you initially open the webpage, you will see the following screenshot. The top left header 'mtchrrs.' is my creator tag, and the on the left side, the 'About', 'Projects' and 'Contact' links will take you to the corresponding sections of the application, as labelled and pictured below. 
+
+Navigating is easy.
+
+As this is a one page application, all you need to do is make your way down the page...
+
+![front-cover](https://user-images.githubusercontent.com/110107834/186122463-07b21df4-48a1-4c59-b305-c6cc9ee817e2.png)
+
+This graphic is located next to the 'About' text, 
+
+![about section](https://user-images.githubusercontent.com/110107834/186122771-61d5979d-a17e-4331-82d4-9dbf71f97bf4.png)
+
+and this figure is located next to the directio text, an extension to the 'About' section.
+
+![direction section](https://user-images.githubusercontent.com/110107834/186122805-5efdcdeb-857d-46bc-9061-c64eca582306.png)
+
+Thn comes the 'Projects' section. Starting with the feature project, each of the 5 boxes will eventually hold a website application that I have created. At the time of initial deployment, only the 'Feauture' or first application has been filled. To visit the application, simply click on the image and your page will be redirected.
+
+![projects](https://user-images.githubusercontent.com/110107834/186123192-56d998dc-c0fa-4dda-abac-48d9533d95e6.png)
+
+This is the final part of the page. In this section, users have the opportunity to reach out to me via instagram, linked in or through email by simply clicking on the icons.
+
+![contact](https://user-images.githubusercontent.com/110107834/186123439-64ed6373-d4a7-4b72-935c-b35e13ffd1a2.png)
+
+
